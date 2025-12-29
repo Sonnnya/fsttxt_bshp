@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9d0add30965f0edc1e3617717f96c8293f53bc169a7d079a92b0fc1095fdf95a
-size 123
+fsttxt* filter=lfs diff=lfs merge=lfs -text
+
+git config core.autocrlf false
+git config core.eol lf
+
+*.model binary
